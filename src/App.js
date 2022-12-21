@@ -14,9 +14,10 @@ function App() {
       </header> */}
 
 <div className="App">
-      <Header title="My header" subTitle="Prasad sammengi" />
-      <Main message="My content" />
-      <Footer note="Footer Note" />
+      <Header title="Prasad Sammengi" subTitle="Profile Details" />
+      <Main message="y contentMy " />
+      
+      <Footer note="footer" />
     </div>
     </div>
     

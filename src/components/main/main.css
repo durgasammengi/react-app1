@@ -1,0 +1,15 @@
+.main {
+    position: absolute;
+    top:100px;
+    left: 0;
+    right: 0;
+    background-image: url('/src/img/bgc.jpeg');
+    background-repeat: no-repeat;
+    background-Position: 'center';
+    width: 100%;
+    height: 85%;
+    background-Size: cover;
+    background-color: black;
+    /* background-color: rgb(78,205,196);
+    background-color: linear-gradient(0deg, rgba(85,98,112,1) 0%, rgba(78,205,196,1) 100%); */
+}

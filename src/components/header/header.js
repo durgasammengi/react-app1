@@ -30,7 +30,6 @@ export default function Header(props){
             x.classList.toggle("change");
         }
         
-
     return (
         <div className="header">
             <div className="myName">

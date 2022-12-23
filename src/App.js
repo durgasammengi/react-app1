@@ -24,7 +24,7 @@ function App() {
       
       note="my footer"/>
       
-      
+
     </div>
     
   );

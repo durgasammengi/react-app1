@@ -1,5 +1,8 @@
 import React  from "react";
 import "./header.css";
+import { NavLink } from 'react-router-dom';
+import Main from "../main/main";
+import About from "../../about";
 
 export default function Header(props){
 
@@ -26,10 +29,11 @@ export default function Header(props){
             <h1>{props.title}</h1>
             <p>{props.subTitle}</p>
             </div>
+            
              <div className="nav" id ="marker">
                 <a></a>
-               <a href="#">home</a>
-               <a href="#">About</a>
+<NavLink to="/home"><a href="#" >Main</a></NavLink>
+<NavLink to="/about"><a href="#">About</a></NavLink>               
                <a href="#">Service</a>
                <a href="#">Portfolio</a>
                <a href="#">Team</a>

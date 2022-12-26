@@ -7,7 +7,7 @@ export default function Main(props){
             <div className="row">
                 <div className="col"><p id="summary">{props.message}</p></div>
                 <div className="col">
-                    <div className="image"></div>
+                    {/* <div className="image"></div> */}
                 </div>
                 
             </div>

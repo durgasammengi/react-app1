@@ -3,18 +3,7 @@ import "./header.css";
 
 export default function Header(props){
 
-    // script>
-    //             function myFunction() {
-    //             var x = document.getElementById("myTopnav");
-    //             if (x.className === "topnav") {
-    //                 x.className += " responsive";
-    //             } else {
-    //                 x.className = "topnav";
-    //             }
-    //             }
-    //             </script>
-
-        const myfunction =()=>{
+           const myfunction =()=>{
             var x1 = document.getElementById("menu");
             x1.classList.toggle("change");
             var x = document.getElementById("marker");
@@ -32,6 +21,7 @@ export default function Header(props){
         
     return (
         <div className="header">
+            {/* <div className="myLogo"></div> */}
             <div className="myName">
             <h1>{props.title}</h1>
             <p>{props.subTitle}</p>

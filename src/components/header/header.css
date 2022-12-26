@@ -1,6 +1,6 @@
 .header{
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     top: 0;
     left: 0;
     width: 100%;
@@ -13,15 +13,33 @@
     margin: 0;
     padding: 0;
 }
+.myLogo{
+    content: url("../../../public/nsd.png");
+    background-image:"../../../public/logo192.png";
+    width: 5opx;
+    height: 50px;
+    position: relative;
+}
 .myName{
     width: 50%;
     padding-left: 20px;
+}
+
+.myName h1{
+    backdrop-filter: grayscale(.8) blur(5px);
+box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
+
+border-top: 2px solid rgba(225, 225, 225, 0.3);
+border-left: 2px solid rgba(225, 225, 225, 0.1);
+border-right: 1px solid rgba(225, 225, 225, 0.2);
+
 }
 
 .nav{
    overflow: hidden;
    float: right;
    width: 50%;
+   display: flow-root;
 }
 
 .nav a {
@@ -31,7 +49,7 @@
     animation: animate 1s ease-in alternate-reverse;
     transition: 4s;
     float: right;
-    display: block;
+    display: flex;
     
 }
 
@@ -49,16 +67,16 @@
     /* border-radius: 4px; */
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .nav a:not(:first-child){display: none;}
     .nav a.icon{
         float: right;
-        display: block;
+        display: flex;
     }
    
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .nav.responsive {position: relative;
         padding-right: 35px;}  
     .nav.responsive .icon{

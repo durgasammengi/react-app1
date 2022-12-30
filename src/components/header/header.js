@@ -35,7 +35,7 @@ export default function Header(props){
 <NavLink to="/home"><a href="#" >Main</a></NavLink>
 <NavLink to="/about"><a href="#">About</a></NavLink>               
                <a href="#">Service</a>
-               <a href="#">Portfolio</a>
+<NavLink to="/about"><a href="#">Portfolio</a></NavLink>      
                <a href="#">Team</a>
                <a href="#">Support</a>
                <a href="#">Contact</a>

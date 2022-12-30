@@ -1,7 +1,7 @@
 .App {
   text-align: center;  
   align-items: flex-start;
-  -webkit-text-fill-color: rgb(236, 233, 13);
+  -webkit-text-fill-color: white;
   margin: 0;
   position: relative;
   
@@ -11,7 +11,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgb(105,105,105);
+  background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
 }
 .App-logo {
   height: 40vmin;
@@ -47,5 +47,6 @@ body{
     transform: rotate(360deg);
   }
 }
+
 
 

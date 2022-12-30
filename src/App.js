@@ -19,8 +19,8 @@ function App() {
       </header> */}
      
       <Router>
-      <Header title="Prasad Sammengi" subTitle="Profile Details" />
-      <h6>Prasad Sammengi</h6>
+      <Header title="꧁༺քʀǟֆǟɖ ֆǟʍʍɛռɢɨ༻꧂"  />
+      <h6></h6>
         <Routes>
          
             <Route path="/home" element={<Main message="Experienced Java developer with a strong track record of
@@ -34,7 +34,7 @@ function App() {
       
           </Routes>
       </Router>
-
+      
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React  from "react";
 import "./header.css";
 import { NavLink } from 'react-router-dom';
-import Main from "../main/main";
+import Main from "../main/home";
 import About from "../../about";
 
 export default function Header(props){
@@ -32,13 +32,14 @@ export default function Header(props){
             
              <div className="nav" id ="marker">
                 <a></a>
-<NavLink to="/home"><a href="#" >Main</a></NavLink>
-<NavLink to="/about"><a href="#">About</a></NavLink>               
-               <a href="#">Service</a>
-               <a href="#">Portfolio</a>
-               <a href="#">Team</a>
+
+            
+               {/* <a href="#">Service</a> */}
+<NavLink to="/about"><a href="#">Portfolio</a></NavLink>      
                <a href="#">Support</a>
                <a href="#">Contact</a>
+<NavLink to="/about"><a href="#">About</a></NavLink>   
+<NavLink to="/home"><a href="#" >Home</a></NavLink>
                <a href="javascript:void(0);" className="icon" onClick={myfunction}>
                <div className="container1" id="menu" >
                     <div class="bar1"></div>

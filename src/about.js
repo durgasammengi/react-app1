@@ -11,7 +11,7 @@ export default function About(props) {
                 </div>
         </div>
         <div className="footer">
-                <h1>about @ps</h1>
+                <h1>about @p</h1>
         </div>
     </div>
   )
